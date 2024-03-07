@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(240, 251, 255);
+}
+.blok {
+    width: 1400px;
+    margin: auto;
+}
+.blok img {
+    float: left;
+}
+.taraf {
+    padding-top: 20px;
+}
+.taraf li {
+    padding-top: 5px;
+}
+.left {
+    float: left;
+}
+.left li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.right {
+    float: right;
+}
+.right li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.hrhr {
+    width: 1400px;
+    margin-top: 50px;
+}
+.ikkinchi li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.ikkinchi li i{
+    font-size: 19px;
+    color: green;
+}
+.apps {
+    float: right;
+    margin-right: 20px;
+}
+.ong {
+    width: 700px;
+    float: left;
+    font-size: 25px;
+    padding-top: 120px;
+}
+.chap {
+    width: 700px;
+    float: right;
+}
+.chap img {
+    width: 700px;
+    height: 480px;
+}
+.ong button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(169, 65, 65);
+    color: white;
+    font-size: 15px;
+}
+.ong button:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+.main {
+    width: 100%;
+    height: 1500px;
+}
+.info {
+    width: 1400px;
+    margin: auto;
+}
+.carusel {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(240, 251, 255);
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.carusel img {
+    border-radius: 15px;
+}
+.carusel p {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.caruselflex {
+    display: flex;
+}
+.carusel:hover {
+    box-shadow: -1px 7px 5px 3px rgba(206, 206, 206, 0.75);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.btn {
+    width: 250px;
+    height: 60px;
+    margin-left: 770px;
+    margin-top: 50px;
+    background-color: white;
+    color: rgb(169, 65, 65);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.btn:hover {
+    background-color: rgb(169, 65, 65);
+    color: white;
+    transition: 0.5s;
+}
